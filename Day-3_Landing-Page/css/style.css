@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Slab', serif;
+}
+
+body, html {
+  background: linear-gradient(to right, #56ab2f, #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+}
+
+h1, p {
+  color: white;
+  text-align: justify;
+}
+
+h1 {
+  text-align: left;
+}
+
+input, h1, p {
+  padding: 10px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  position: relative;
+  width: 900px;
+  height: 600px;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow .2s linear;
+  text-align: center;
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.add {
+  background: url("http://images.wisegeek.com/three-men-share-a-toast.jpg");
+  background-position: -100px 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1
+}
+
+.gimme-ur-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  right: 5%;
+  top: 10%;
+  height: 80%;
+  width: 20%;
+  background: rgba(86, 171, 47, .8);
+  z-index: 2;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: white;
+}

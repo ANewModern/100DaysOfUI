@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Slab', serif;
+}
+
+body, html {
+  background: linear-gradient(45deg, #ECEBE4, #f7f5f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  background: #F2F2F2;
+  position: relative;
+  width: 900px;
+  height: 600px;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow .2s linear;
+  text-align: center;
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
