@@ -1,0 +1,311 @@
+* {
+  font-family: 'Josefin Slab', serif;
+}
+
+body, html {
+  background: linear-gradient(45deg, #ECEBE4, #f7f5f6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+}
+
+span {
+  font-size: 12px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  background: #F2F2F2;
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 650px;
+  background: #abbaab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #abbaab, #ffffff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #abbaab, #ffffff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow .2s linear;
+  text-align: center;
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.outer-screen {
+  position: absolute;
+  width: 90%;
+  height: 40%;
+  top: 5%;
+  left: 5%;
+  border-radius: 5px;
+  background: linear-gradient(to right, #716E5E, #4F4C3D);
+}
+
+.hp {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.calc, .gc {
+  position: absolute;
+  left: 5%;
+}
+
+.calc {
+  top: 1%;
+}
+
+.gc {
+  top: 8%;
+}
+
+.hp-logo {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  right: 3%;
+  top: 3%;
+  color: #97A2A4;
+  font-size: 25px;
+  text-align: center;
+  line-height: 150%;
+  border-radius: 5px;
+  border: 2px solid #505050;
+  background: radial-gradient(circle at center, #1F1F51 45%, transparent 45%), #97A2A4;
+}
+
+.screen {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  top: 25%;
+  left: 5%;
+  background: linear-gradient(to right, #C0CFBE, #8DA68B);
+  border-radius: 5px;
+}
+
+.top-button {
+  position: absolute;
+  width: 10%;
+  height: 3.5%;
+  top: 48%;
+  color: white;
+  line-height: 150%;
+  background: #514E3F;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.fake-button {
+  position: absolute;
+  width: 10%;
+  height: 3.5%;
+  top: 48.5%;
+  background: darkgrey;
+  border-radius: 5px;
+  z-index: 0;
+}
+
+.top-button:active {
+  top: 48.5%;
+}
+
+.button-1 {
+  position: absolute;
+  left: 8.3333%;
+}
+
+.button-2 {
+  position: absolute;
+  left: 26.6666%;
+}
+
+.button-3 {
+  position: absolute;
+  left: 44.9999%;
+}
+
+.button-4 {
+  position: absolute;
+  left: 63.3333%;
+}
+
+.button-5 {
+  position: absolute;
+  left: 81.6666%;
+}
+
+@for $i from 1 through 7 {
+  @for $j from 0 through 4 {
+    .r-#{$i}-button-#{$j} {
+      position: absolute;
+      top: 58% + 5*$i;
+      left: 8.3333 + $j*18.3333%;
+      width: 10%;
+      height: 3.5%;
+      border-radius: 5px;
+      color: white;
+      line-height: 150%;
+      background: #514E3F;
+      z-index: 1;
+    }
+    .r-#{$i}-button-#{$j}:active {
+      top: 58.5% + 5*$i;
+    }
+    .f-#{$i}-button-#{$j} {
+      position: absolute;
+      top: 58.5% + 5*$i;
+      left: 8.3333 + $j*18.3333%;
+      width: 10%;
+      height: 3.5%;
+      border-radius: 5px;
+      background: darkgrey;
+      z-index: 0;
+    }
+    .r-#{$i}-but-#{$j} {
+      position: absolute;
+      top: 48% + 5*$i;
+      left: 8.3333 + $j*18.3333%;
+      width: 10%;
+      height: 3.5%;
+      border-radius: 5px;
+      color: white;
+      line-height: 150%;
+      background: #514E3F;
+      z-index: 1;
+    }
+    .r-#{$i}-but-#{$j}:active {
+      top: 48.5% + 5*$i;
+    }
+    .f-#{$i}-but-#{$j} {
+      position: absolute;
+      top: 48.5% + 5*$i;
+      left: 8.3333 + $j*18.3333%;
+      width: 10%;
+      height: 3.5%;
+      border-radius: 5px;
+      color: white;
+      line-height: 150%;
+      background: darkgrey;
+      z-index: 0;
+    }
+  }
+}
+
+.up {
+  position: absolute;
+  top: 53%;
+  left: 73%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: #514E3F;
+  z-index: 1;
+}
+
+.up:active {
+  top: 53.5%;
+}
+
+.left {
+  position: absolute;
+  top: 58%;
+  left: 63%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: #514E3F;
+  z-index: 1;
+}
+
+.down {
+  position: absolute;
+  top: 58%;
+  left: 73%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: #514E3F;
+  z-index: 1;
+}
+
+.right {
+  position: absolute;
+  top: 58%;
+  left: 83%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: #514E3F;
+  z-index: 1;
+}
+
+.left:active, .down:active, .right:active {
+  top: 58.5%;
+}
+
+.fup {
+  position: absolute;
+  top: 53.5%;
+  left: 73%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: darkgrey;
+  z-index: 0;
+}
+
+.fleft {
+  position: absolute;
+  top: 58.5%;
+  left: 63%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: darkgrey;
+  z-index: 0;
+}
+
+.fdown {
+  position: absolute;
+  top: 58.5%;
+  left: 73%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: darkgrey;
+  z-index: 0;
+}
+
+.fright {
+  position: absolute;
+  top: 58.5%;
+  left: 83%;
+  width: 8%;
+  height: 3.5%;
+  border-radius: 5px;
+  color: white;
+  line-height: 150%;
+  background: darkgrey;
+  z-index: 0;
+}
