@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+body,
+html {
+  background: #004D40;
+  background-size: cover; }
+
+.container {
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 500px;
+  height: 1400px;
+  background: #E6ECF0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.2s linear;
+  text-align: center; }
+  .container .top-image {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    width: 500px;
+    align-self: flex-start;
+    height: auto;
+    z-index: 1; }
+  .container .profile-pic {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #B2DFDB;
+    border-radius: 10px;
+    background: url("http://res.cloudinary.com/anewmodern/image/upload/v1502596908/IMG_2420_xjcyvp.jpg");
+    background-position: 0 -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px rgba(0, 0, 0, 0.8);
+    z-index: 2; }
+  .container .profile {
+    position: absolute;
+    top: 10%;
+    width: 500px;
+    height: 180px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 1; }
+    .container .profile .profile-popularity {
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%; }
+      .container .profile .profile-popularity .field {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; }
+        .container .profile .profile-popularity .field .pop-tag {
+          color: grey;
+          font-size: 16px; }
+        .container .profile .profile-popularity .field .pop-num {
+          color: #80CBC4;
+          font-size: 20px; }
+    .container .profile .profile-info {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      right: 5%;
+      top: 5%;
+      width: 50%;
+      height: 40%; }
+      .container .profile .profile-info .name {
+        color: #26A69A;
+        font-size: 22px;
+        font-weight: bold; }
+      .container .profile .profile-info .name-tag {
+        color: grey;
+        font-size: 16px; }
+  .container .images {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 24%;
+    left: 2%;
+    width: 96%;
+    height: 200px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
+    z-index: 2; }
+    .container .images .img-0 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-0:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-1 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-1:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-2 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-2:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-3 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-3:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-4 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-4:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-5 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-5:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-6 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-6:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-7 {
+      width: 100px;
+      height: 70px;
+      background: grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out; }
+    .container .images .img-7:hover {
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      z-index: 2; }
+    .container .images .img-0 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1505189300/81YpO0Kjz_2BL._SX425__k6ac7w.jpg");
+      background-size: cover; }
+    .container .images .img-1 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1505083820/2017-09-10-164801_1366x768_scrot_ufokjm.png");
+      background-size: cover; }
+    .container .images .img-2 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1503000692/36462183081_06842cb407_z_brjq1g.jpg");
+      background-size: cover; }
+    .container .images .img-3 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1503000020/36490742881_e9ea477979_z_yzcjhb.jpg");
+      background-size: cover; }
+    .container .images .img-4 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1485308894/backday8_moeyha.png");
+      background-size: cover; }
+    .container .images .img-5 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1480971915/LfZvG0vzWC8g7MprvQNz2seKmkUOpFjw4nbzJnCPFp7Aav8H5NWMLBJ7_Zhpx4DA36TTJchSpw_w1366-h768-rw-no_uevvu4.webp");
+      background-size: cover; }
+    .container .images .img-6 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1492652199/1000021_644017635609081_1756446671_n_b5fkm5.jpg");
+      background-size: cover; }
+    .container .images .img-7 {
+      background: url("http://res.cloudinary.com/anewmodern/image/upload/v1485619526/Website%20Screenshot/tribute-page.jpg");
+      background-size: cover; }
+  .container .posts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    top: 39.3%;
+    left: 2%;
+    width: 96%;
+    height: 60%; }
+    .container .posts .post {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      width: 100%;
+      height: 15%;
+      background: white;
+      margin-bottom: 13px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s ease-in-out;
+      z-index: 1; }
+      .container .posts .post .text {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px; }
+      .container .posts .post .post-title {
+        color: #004D40;
+        font-size: 22px; }
+      .container .posts .post .post-comment {
+        text-align: justify;
+        font-size: 15px;
+        color: #00695C; }
+    .container .posts .post:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 5px 15px 5px rgba(0, 0, 0, 0.6);
+      transform: scale(1.2);
+      z-index: 2; }
+
+.plus {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 5%;
+  bottom: 5%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #00796B;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out; }
+  .plus .symbol {
+    width: 25px;
+    height: 25px;
+    background: white;
+    -webkit-clip-path: polygon(0 35%, 35% 35%, 35% 0%, 65% 0%, 65% 35%, 100% 35%, 100% 65%, 65% 65%, 65% 100%, 35% 100%, 35% 65%, 0 65%);
+    clip-path: polygon(0 35%, 35% 35%, 35% 0%, 65% 0%, 65% 35%, 100% 35%, 100% 65%, 65% 65%, 65% 100%, 35% 100%, 35% 65%, 0 65%); }
+
+.plus:active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=style.css.map */
