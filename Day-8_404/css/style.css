@@ -1,0 +1,505 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif; }
+
+body,
+html {
+  background: black;
+  background-size: cover;
+  overflow: hidden; }
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background: transparent; }
+  .container .title-404 {
+    position: absolute;
+    color: lightgrey;
+    font-size: 100px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    top: 25%;
+    left: 35%;
+    z-index: 3; }
+  .container .under-404 {
+    position: relative;
+    color: grey;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    left: 0%;
+    top: 2%;
+    z-index: 3; }
+  .container .planet {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #28726E;
+    overflow: hidden;
+    z-index: 2;
+    left: 25%;
+    top: 20%; }
+    .container .planet .top-land {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      left: 25%;
+      top: -30%;
+      background: white;
+      -webkit-clip-path: polygon(61% 3%, 100% 48%, 74% 100%, 38% 80%, 8% 68%, 0 48%, 0 23%);
+      clip-path: polygon(61% 3%, 100% 48%, 74% 100%, 38% 80%, 8% 68%, 0 48%, 0 23%); }
+    .container .planet .land-1 {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      left: 25%;
+      top: 25%;
+      background: #397628;
+      -webkit-clip-path: polygon(61% 3%, 100% 20%, 71% 60%, 54% 76%, 54% 100%, 8% 71%, 0 23%);
+      clip-path: polygon(61% 3%, 100% 20%, 71% 60%, 54% 76%, 54% 100%, 8% 71%, 0 23%); }
+    .container .planet .land-2 {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      left: -35%;
+      top: 15%;
+      background: #397628;
+      -webkit-clip-path: polygon(61% 3%, 100% 20%, 89% 67%, 48% 98%, 28% 48%, 0 76%, 0 23%);
+      clip-path: polygon(61% 3%, 100% 20%, 89% 67%, 48% 98%, 28% 48%, 0 76%, 0 23%); }
+    .container .planet .land-3 {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      left: -35%;
+      bottom: 5%;
+      background: #397628;
+      -webkit-clip-path: polygon(61% 3%, 100% 62%, 54% 59%, 34% 68%, 28% 48%, 0 76%, 0 23%);
+      clip-path: polygon(61% 3%, 100% 62%, 54% 59%, 34% 68%, 28% 48%, 0 76%, 0 23%); }
+    .container .planet .land-4 {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      right: -35%;
+      bottom: 5%;
+      background: #397628;
+      -webkit-clip-path: polygon(61% 3%, 100% 62%, 74% 100%, 0 100%, 8% 68%, 0 48%, 0 23%);
+      clip-path: polygon(61% 3%, 100% 62%, 74% 100%, 0 100%, 8% 68%, 0 48%, 0 23%); }
+    .container .planet .bot-land {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      left: 25%;
+      bottom: -35%;
+      background: white;
+      -webkit-clip-path: polygon(61% 3%, 100% 48%, 74% 100%, 38% 80%, 8% 68%, 0 48%, 0 23%);
+      clip-path: polygon(61% 3%, 100% 48%, 74% 100%, 38% 80%, 8% 68%, 0 48%, 0 23%); }
+  .container .row-1 {
+    position: absolute;
+    width: 83.422%;
+    height: 10%;
+    left: 8.289%;
+    top: 9.2%; }
+    .container .row-1 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-1 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 18%;
+      background: grey; }
+    .container .row-1 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 36%;
+      background: grey; }
+    .container .row-1 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 54%;
+      background: grey; }
+    .container .row-1 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 72%;
+      background: grey; }
+    .container .row-1 .star-5 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 90%;
+      background: grey; }
+  .container .row-2 {
+    position: absolute;
+    width: 66.8422%;
+    height: 10%;
+    left: 16.5789%;
+    top: 18.4%; }
+    .container .row-2 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-2 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 22%;
+      background: grey; }
+    .container .row-2 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 44%;
+      background: grey; }
+    .container .row-2 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 66%;
+      background: grey; }
+    .container .row-2 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 88%;
+      background: grey; }
+  .container .row-3 {
+    position: absolute;
+    width: 83.422%;
+    height: 10%;
+    left: 8.289%;
+    top: 27.6%; }
+    .container .row-3 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-3 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 18%;
+      background: grey; }
+    .container .row-3 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 36%;
+      background: grey; }
+    .container .row-3 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 54%;
+      background: grey; }
+    .container .row-3 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 72%;
+      background: grey; }
+    .container .row-3 .star-5 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 90%;
+      background: grey; }
+  .container .row-4 {
+    position: absolute;
+    width: 66.8422%;
+    height: 10%;
+    left: 16.5789%;
+    top: 36.8%; }
+    .container .row-4 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-4 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 22%;
+      background: grey; }
+    .container .row-4 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 44%;
+      background: grey; }
+    .container .row-4 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 66%;
+      background: grey; }
+    .container .row-4 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 88%;
+      background: grey; }
+  .container .row-5 {
+    position: absolute;
+    width: 83.422%;
+    height: 10%;
+    left: 8.289%;
+    top: 46%; }
+    .container .row-5 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-5 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 18%;
+      background: grey; }
+    .container .row-5 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 36%;
+      background: grey; }
+    .container .row-5 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 54%;
+      background: grey; }
+    .container .row-5 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 72%;
+      background: grey; }
+    .container .row-5 .star-5 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 90%;
+      background: grey; }
+  .container .row-6 {
+    position: absolute;
+    width: 66.8422%;
+    height: 10%;
+    left: 16.5789%;
+    top: 55.2%; }
+    .container .row-6 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-6 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 22%;
+      background: grey; }
+    .container .row-6 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 44%;
+      background: grey; }
+    .container .row-6 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 66%;
+      background: grey; }
+    .container .row-6 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 88%;
+      background: grey; }
+  .container .row-7 {
+    position: absolute;
+    width: 83.422%;
+    height: 10%;
+    left: 8.289%;
+    top: 64.4%; }
+    .container .row-7 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-7 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 18%;
+      background: grey; }
+    .container .row-7 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 36%;
+      background: grey; }
+    .container .row-7 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 54%;
+      background: grey; }
+    .container .row-7 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 72%;
+      background: grey; }
+    .container .row-7 .star-5 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 90%;
+      background: grey; }
+  .container .row-8 {
+    position: absolute;
+    width: 66.8422%;
+    height: 10%;
+    left: 16.5789%;
+    top: 73.6%; }
+    .container .row-8 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-8 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 22%;
+      background: grey; }
+    .container .row-8 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 44%;
+      background: grey; }
+    .container .row-8 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 66%;
+      background: grey; }
+    .container .row-8 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 88%;
+      background: grey; }
+  .container .row-9 {
+    position: absolute;
+    width: 83.422%;
+    height: 10%;
+    left: 8.289%;
+    top: 82.8%; }
+    .container .row-9 .star-0 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 0%;
+      background: grey; }
+    .container .row-9 .star-1 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 18%;
+      background: grey; }
+    .container .row-9 .star-2 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 36%;
+      background: grey; }
+    .container .row-9 .star-3 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 54%;
+      background: grey; }
+    .container .row-9 .star-4 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 72%;
+      background: grey; }
+    .container .row-9 .star-5 {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      left: 90%;
+      background: grey; }
+
+/*# sourceMappingURL=style.css.map */
