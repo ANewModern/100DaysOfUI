@@ -9,4 +9,4 @@ Started the [100 days of UI](http://www.dailyui.co/) challenge.
 ### Day 5: [Application Icon](https://codepen.io/anewmodern/full/QqbNEb)
 ### Day 6: [Profile Page](https://codepen.io/anewmodern/full/JrYNQZ/)
 ### Day 7: [Settings](https://codepen.io/anewmodern/full/XedeLN/)
-### Day 8: [404 Page]()
+### Day 8: [404 Page](https://codepen.io/anewmodern/full/BwzpLb/)
