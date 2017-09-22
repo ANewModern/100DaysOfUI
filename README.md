@@ -10,3 +10,4 @@ Started the [100 days of UI](http://www.dailyui.co/) challenge.
 ### Day 6: [Profile Page](https://codepen.io/anewmodern/full/JrYNQZ/)
 ### Day 7: [Settings](https://codepen.io/anewmodern/full/XedeLN/)
 ### Day 8: [404 Page](https://codepen.io/anewmodern/full/BwzpLb/)
+### Day 9: [Music Player](https://codepen.io/anewmodern/full/OxRNQO/)
