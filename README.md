@@ -11,4 +11,5 @@ Started the [100 days of UI](http://www.dailyui.co/) challenge.
 ### Day 7: [Settings](https://codepen.io/anewmodern/full/XedeLN/)
 ### Day 8: [404 Page](https://codepen.io/anewmodern/full/BwzpLb/)
 ### Day 9: [Music Player](https://codepen.io/anewmodern/full/OxRNQO/)
-### Day 10: [Social Share]()
+### Day 10: [Social Share](https://codepen.io/anewmodern/full/jGMRdm/)
+### Day 11: [Flash Message](https://codepen.io/anewmodern/full/wroPpY/)
