@@ -1,0 +1,138 @@
+.box .container .top-bar, .box .container .bottom-bar {
+  position: absolute;
+  width: 100%;
+  background: #009688; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+body,
+html {
+  background: linear-gradient(45deg, #ECEBE4, #f7f5f6);
+  background-size: cover; }
+
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+  .box .container {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background: #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.2s linear; }
+    .box .container .top-bar {
+      height: 100px;
+      top: 0;
+      text-align: center; }
+      .box .container .top-bar .back {
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        top: 30%;
+        left: 5%; }
+        .box .container .top-bar .back .white-arrow {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: white;
+          border-radius: 50%;
+          -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+          clip-path: polygon(100% 0, 0 50%, 100% 100%); }
+        .box .container .top-bar .back .green-arrow {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 30%;
+          background: #009688;
+          border-radius: 50%;
+          -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+          clip-path: polygon(100% 0, 0 50%, 100% 100%); }
+      .box .container .top-bar .back:active .white-arrow {
+        background: #004D40; }
+      .box .container .top-bar .title {
+        color: white;
+        font-size: 35px;
+        line-height: 100px; }
+    .box .container .conversation {
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      top: 100px;
+      height: 450px;
+      width: 100%;
+      padding-bottom: 10px;
+      background: whitesmoke; }
+      .box .container .conversation .message {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 250px;
+        height: 70px; }
+      .box .container .conversation .mine {
+        align-self: flex-start;
+        flex-flow: row-reverse;
+        padding-left: 10px; }
+        .box .container .conversation .mine .profile-pic {
+          background: url("http://res.cloudinary.com/anewmodern/image/upload/v1502596908/IMG_2420_xjcyvp.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 30px;
+          height: 30px; }
+        .box .container .conversation .mine .message-text {
+          height: 50px;
+          width: 195px;
+          background: #009688;
+          color: whitesmoke;
+          text-align: center;
+          line-height: 50px; }
+      .box .container .conversation .hers {
+        align-self: flex-end;
+        padding-right: 10px; }
+        .box .container .conversation .hers .profile-pic {
+          background: url("http://res.cloudinary.com/anewmodern/image/upload/v1506566028/20881944_1508857645838699_3517119389159627237_n_rtboqs.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 30px;
+          height: 30px; }
+        .box .container .conversation .hers .message-text {
+          height: 50px;
+          width: 195px;
+          background: #004D40;
+          color: whitesmoke;
+          text-align: center;
+          line-height: 50px; }
+    .box .container .bottom-bar {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 50px;
+      bottom: 0;
+      padding: 0 10px; }
+      .box .container .bottom-bar .text[type=text] {
+        width: 80%;
+        height: 25px;
+        background: #004D40;
+        color: white;
+        padding-left: 10px;
+        border: 1px solid #555;
+        outline: none; }
+      .box .container .bottom-bar .send {
+        background-color: #004D40;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        width: 15%;
+        height: 25px;
+        cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
