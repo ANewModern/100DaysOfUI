@@ -30,3 +30,5 @@ Started the [100 days of UI](http://www.dailyui.co/) challenge.
 ![Direct-Messaging page](/Images/Day-13.png)
 ### Day 14: [Countdown Timer](https://codepen.io/anewmodern/full/boRGqg/)
 ![Countdown page](/Images/Day-14.png)
+### Day 15: [On/Off Switch](https://codepen.io/anewmodern/full/oGebbg/)
+![On Off Switch page](/Images/Day-15.png)

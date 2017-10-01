@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body,
+html {
+  background: linear-gradient(45deg, #ECEBE4, #f7f5f6);
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+  background: #8e9eab;
+  transition: all 0.2s ease-in-out;
+
+  .line {
+    position: absolute;
+    width: 15px;
+    height: 50%;
+    border-radius: 10px;
+    left: 42.5%;
+    top: 10%;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, .8);
+    background: lightgrey;
+    z-index: 3;
+    transition: background .2s ease-in-out;
+  }
+
+  .solid {
+    position: absolute;
+    width: 30px;
+    height: 65%;
+    left: 35%;
+    top: 5%;
+    border-radius: 10px;
+    background: #8e9eab;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+    z-index: 2;
+
+    .box {
+      position: absolute;
+      top: -4%;
+      left: -1%;
+      width: 102%;
+      height: 15px;
+      background: #8e9eab;
+    }
+
+    .cover-l {
+      position: absolute;
+      width: 100%;
+      height: 8px;
+      top: 2%;
+      left: -10%;
+      background: #8e9eab;
+    }
+
+    .cover-r {
+      position: absolute;
+      width: 100%;
+      height: 8px;
+      top: 2%;
+      right: -10%;
+      background: #8e9eab;
+    }
+  }
+
+  .smile {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    background: lightgrey;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, .8);
+    transition: background .2s ease-in-out;
+    z-index: 1;
+  }
+}
+
+.container:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.container:active .line {
+  background: #FE1C35;
+}
+
+.container:active .smile {
+  background: #FE1C35;
+}
