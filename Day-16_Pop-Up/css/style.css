@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+body,
+html {
+  background: linear-gradient(45deg, #ECEBE4, #f7f5f6);
+  background-size: cover; }
+
+.container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  background: #F2F2F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.2s linear;
+  z-index: 1; }
+
+.popUp {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  background: #F2F2F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.2s linear;
+  overflow: hidden;
+  z-index: 2; }
+  .popUp .buttons {
+    position: relative;
+    bottom: 10%;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .popUp .buttons .click {
+      width: 110px;
+      height: 25px;
+      text-align: center;
+      background-color: grey;
+      border: none;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer; }
+    .popUp .buttons .click:active {
+      background-color: darkgrey; }
+
+/*# sourceMappingURL=style.css.map */
