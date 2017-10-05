@@ -34,5 +34,7 @@ Started the [100 days of UI](http://www.dailyui.co/) challenge.
 ![On Off Switch page](/Images/Day-15.png)
 ### Day 16: [Pop-Up Overlay](https://codepen.io/anewmodern/full/rGzdBm/)
 ![Pop-Up Overlay page](/Images/Day-16.png)
-### Day 16: [E-mail Reciept](https://codepen.io/anewmodern/full/zEEZxJ/)
+### Day 17: [E-mail Reciept](https://codepen.io/anewmodern/full/zEEZxJ/)
 ![E-Mail page](/Images/Day-17.png)
+### Day 18: [Analytics Chart](https://codepen.io/anewmodern/full/LzePBZ/)
+![Analytics Chart page](/Images/Day-18.png)
