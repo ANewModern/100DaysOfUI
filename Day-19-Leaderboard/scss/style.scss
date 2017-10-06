@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body, html {
+  background: #12181E;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  margin-top: 70px;
+  padding: 40px 40px 40px 40px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #394853;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow .2s linear;
+
+  .logo {
+    background: url("http://res.cloudinary.com/anewmodern/image/upload/v1507251046/logo_xgrbkw.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 40px;
+    padding-top: 20px; 
+    padding-top: 80px; 
+  }
+
+  .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    width: 650px;
+
+    .player {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 650px;
+      height: 35px;
+      margin: 7px 10px 7px 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+      transition: all .2s ease-in-out;
+
+      .player-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+        width: 500px;
+        height: 25px;
+      }
+    }
+
+    .player:nth-child(odd){
+      background-color: rgb(32, 37, 53);
+    }
+
+    .player:nth-child(even){
+      background: rgb(27, 33, 53);
+    } 
+
+    .player:hover {
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    }
+
+  }
+}
+
