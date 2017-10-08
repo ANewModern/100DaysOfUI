@@ -40,3 +40,5 @@ Started the [100 days of UI](http://www.dailyui.co/) challenge.
 ![Analytics Chart page](/Images/Day-18.png)
 ### Day 19: [Leaderboard](https://codepen.io/anewmodern/full/aLEMRW/)
 ![Leaderboard page](/Images/Day-19.png)
+### Day 20: [Location Tracker](https://codepen.io/anewmodern/full/QqmKRK/)
+![Location Tracker page](/Images/Day-20.png)
