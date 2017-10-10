@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+body,
+html {
+  background: #CFD8DC;
+  background-size: cover; }
+
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: transparent;
+  transition: box-shadow .2s linear;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .container .buttons {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    margin: 20px 20px; }
+    .container .buttons .button-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 400px;
+      padding: 20px 20px; }
+      .container .buttons .button-container .button-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: auto;
+        height: auto; }
+        .container .buttons .button-container .button-info .button-slider {
+          position: relative;
+          height: 250px;
+          width: 100px;
+          border-radius: 50px;
+          border: 10px solid rgba(0, 0, 0, 0.6);
+          background: grey;
+          overflow: hidden;
+          transition: all 1s linear; }
+          .container .buttons .button-container .button-info .button-slider .button {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: lightgrey;
+            border-radius: 50%;
+            transition: all .2s ease-in-out;
+            bottom: 0;
+            z-index: 2; }
+          .container .buttons .button-container .button-info .button-slider .backcolor {
+            position: absolute;
+            width: 80px;
+            height: 250px;
+            top: 100%;
+            background: #26A69A;
+            transition: all .2s ease-in-out;
+            z-index: 1; }
+    .container .buttons .appliance {
+      width: 600px; }
+
+/*# sourceMappingURL=style.css.map */
