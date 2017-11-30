@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+body,
+html {
+  background: linear-gradient(45deg, #ECEBE4, #f7f5f6);
+  background-size: cover; }
+
+.container {
+  margin: auto;
+  width: 500px;
+  background: #F2F2F2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow .2s linear;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
